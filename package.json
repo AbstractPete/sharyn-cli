@@ -1,0 +1,45 @@
+{
+  "name": "sharyn-cli",
+  "version": "0.0.1",
+  "description": "This is awesome application",
+
+    "bugs": {
+      "url": "AbstractPete/sharyn-cli/issues"
+  },
+  "author": {    "name": "Abramov Arthur"  ,  "email": "supermassive.apete@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "AbstractPete/sharyn-cli"
+  },
+  "license": "MIT",
+  "files": [
+        "lib/index.js"   ,
+        "cli.js"
+  ],
+  "keywords": [
+    "sharyn-cli"  ,
+        ""
+  ],
+  "dependencies": {
+        "minimist": "^1.1.1"
+  },
+  "devDependencies": {
+
+        "gulp": "^3.8.11",
+      "gulp-cli": "^0.1.5",
+      "gulp-watch": "^4.1.1",
+      "gulp-jshint": "^1.9.2"  ,
+      "gulp-mocha": "^2.0.0",
+      "chai": "^2.1.0"  ,
+      "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+
+       "test": "gulp test"
+
+  }  ,
+      "bin": {
+        "sharyn-cli": "cli.js"
+    }
+}
